@@ -22,7 +22,7 @@ public class Newton {
      * @param itmax número de iteraciones.
      * @return      solución del polinomio.
      */
-    public static double algoritmoNewton(Ecuación ec, double p0, double tol, int itmax){
+    public static double obtenerSolución(Ecuación ec, double p0, double tol, int itmax){
         double solución = 0, errorF;
         for (int i = 0; i < itmax; i++) {
             solución = p0 - ec.evaluarEn(p0) / ec.derivadaEn(p0);

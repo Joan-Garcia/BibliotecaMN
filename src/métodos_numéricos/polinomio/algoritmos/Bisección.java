@@ -24,7 +24,7 @@ public class Bisección {
      * @param itmax número de iteraciones.
      * @return      solución del polinomio.
      */
-    public static double algoritmoBisección(Ecuación ec, double xi, double xu, double tol, int itmax){
+    public static double obtenerSolución(Ecuación ec, double xi, double xu, double tol, int itmax){
         double solución = 0;
         double iu, errorF;
         errorF =  Math.abs(((xi + xu) / 2) - xu);

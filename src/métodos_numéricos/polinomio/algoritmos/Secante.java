@@ -25,8 +25,8 @@ public class Secante {
    * 
    * @return      solución del polinómio. 
    */
-  public static double algoritmoSecante(Ecuación ec, double p0, double p1,
-                                        double tol, int itmax){
+  public static double obtenerSolución(Ecuación ec, double p0, double p1,
+                                       double tol, int itmax){
     double solución;
     
     solución = 0;

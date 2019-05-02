@@ -24,7 +24,7 @@ public class ReglaFalsa {
    * 
    * @return      solución del polinómio. 
    */
-  public static double ObtenerSolucion(Ecuación ec, double xi, double xu, 
+  public static double obtenerSolución(Ecuación ec, double xi, double xu, 
                                        double tol, int itmax){
     double xo, fxo, solución;
     
@@ -55,5 +55,5 @@ public class ReglaFalsa {
     
     return solución;
   }
-  
+
 }
