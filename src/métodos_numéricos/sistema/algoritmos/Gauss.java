@@ -1,6 +1,6 @@
-package sistema.algoritmos;
+package métodos_numéricos.sistema.algoritmos;
 
-import sistema.EcuacionesLineales;
+import métodos_numéricos.sistema.EcuacionesLineales;
 
 /**
  * Aplicación del algoritmo de Gauss - Seidel a un sstema de ecuaciones cuadrado
@@ -38,7 +38,8 @@ public class Gauss {
       solucion[1] = sistema.obtenerY(solucion[0], solucion[2]);
       solucion[2] = sistema.obtenerZ(solucion[0], solucion[1]);
       
-      if(Math.abs(x0-solucion[0]) < tol && Math.abs(y0-solucion[1]) < tol &&
+      if(Math.abs(x0-solucion[0]) < tol && 
+         Math.abs(y0-solucion[1]) < tol &&
          Math.abs(z0-solucion[2]) < tol)
         return solucion;
       

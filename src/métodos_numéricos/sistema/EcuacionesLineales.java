@@ -1,4 +1,4 @@
-package sistema;
+package métodos_numéricos.sistema;
 
 /**
  * Creación de un sistema de ecuaciones lineales con coeficientes de números 
@@ -9,11 +9,29 @@ package sistema;
  */
 
 public class EcuacionesLineales {
-  private final double[][] matriz_ecuacion;
+  private double[][] matriz_ecuacion;
   
   public EcuacionesLineales(double[][] matriz_ecuacion){
     this.matriz_ecuacion = matriz_ecuacion;
   }  
+  
+  /**
+   * Retorna el sistema de ecuaciones en representación matricial.
+   * 
+   * @return  la matriz del sistema de ecuaciones.
+   */
+  public double[][] getMatrizEcuacion(){
+    return matriz_ecuacion;
+  }
+  
+  /**
+   * Define la nueva matriz del sistema de ecuaciones.
+   * 
+   * @param matriz_ecuacion   la nueva matriz de ecuaciones.
+   */
+  public void setMatrizEcuacion(double[][] matriz_ecuacion){
+    this.matriz_ecuacion = matriz_ecuacion;
+  }
   
   /**
    * Define el coeficiente del sistema de la variable en (i,j).
