@@ -6,7 +6,7 @@ package métodos_numéricos.polinomio;
  * Contiene métodos para evaluar en la función normal y en la derivada 
  * de la misma.
  * 
- * @author ITL. López Miguel, García Joan.
+ * @author ITL. García Joan, López Miguel.
  */
 
 public class Ecuación {
