@@ -48,7 +48,6 @@ public class ReglaFalsa {
         xu = xo;
         xo = (xi * ec.evaluarEn(xu) - xu * ec.evaluarEn(xi)) /
              (ec.evaluarEn(xu) - ec.evaluarEn(xi));
-        
         solución = xo;
         if(Math.abs(xo - xi) < tol) break;
       }
