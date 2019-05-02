@@ -1,7 +1,8 @@
 package métodos_numéricos.polinomio;
 
 /**
- * 
+ * Contiene el método polinomios que devuelve la aproximación del polinomio de
+ * Maclaurin.
  * @author ITL. López Miguel, García Joan.
  */
 public class TaylorMaclaurin {
