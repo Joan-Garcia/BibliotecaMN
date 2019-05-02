@@ -6,7 +6,7 @@ import métodos_numéricos.polinomio.Ecuación;
  * Aplicación del algoritmo de bisección a un polinómio de la forma 
  *                  Ax4+ Bx3 + Cx2 + Dx + E = 0.
  * 
- * @author ITL. López Miguel, García Joan.
+ * @author ITL. García Joan, López Miguel.
  */
 
 public class Bisección {

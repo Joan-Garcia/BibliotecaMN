@@ -3,11 +3,11 @@ package métodos_numéricos.polinomio;
 /**
  * Contiene el método polinomios que devuelve la aproximación del polinomio de
  * Maclaurin.
- * @author ITL. López Miguel, García Joan.
+ * @author ITL. García Joan, López Miguel.
  */
 public class TaylorMaclaurin {
     
-  /**
+    /**
      * Enumerado para elegir la función deseada (COSENO, SENO, EULER).
      */
     public enum Funcion{
